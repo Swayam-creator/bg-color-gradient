@@ -1,0 +1,83 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #18913c 0%, #c9c30d 100%);
+
+}
+.center h2{
+    font-family: cursive;
+    color: aliceblue;
+}
+.center button{
+ padding: 2rem;
+ width: 12rem;
+ margin-left: 1rem;
+ border-radius: 10px 10px 10px ;
+ border: 1px solid white;
+ font-weight: 700;
+ 
+}
+#mybutton1{
+    background-color: greenyellow;
+
+}
+#button2{
+    background-color: rgb(8, 233, 158);
+}
+
+#mybutton1:hover{
+    background-color:#33ea36; 
+    color: black;
+    border: 1px solid;
+    /* transform: rotate(2); */
+    transition:  ease-in 3ms;
+    box-shadow: 1px 10px  10px  #28740c;
+}
+#button2:hover{
+    background-color:#c1dd1d;
+    color: black;
+    border: 1px solid;
+    /* transform: rotate(2); */
+    transition:  ease-in 3ms;
+    box-shadow: 1px 10px  10px #28740c
+}
+.center{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align:center ;
+ flex-direction :column;
+}
+.center .content{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align:center ;
+  gap: 1rem;
+flex-direction: row;
+}
+.center .copycode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    flex-direction: column;
+    height: 100px;
+    width:390px;
+    border:1px solid  rgba(121, 119, 119, 0.235);
+    font-weight: 900;
+    font-size: 1.9rem;
+    block-size: 100px black;
+    border-radius: 10px 10px 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgba(121, 119, 119, 0.235);
+    color: white;
+}
